@@ -1,0 +1,17 @@
+<resources>
+
+<!-- Base application theme. -->
+<style name="AppTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:actionMenuTextColor">#fff</item>
+    <item name="actionMenuTextAppearance">@style/AppTheme.actionMenuTextSize</item>
+
+</style>
+    <style name="AppTheme.actionMenuTextSize" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>
